@@ -6,7 +6,7 @@ const Coin = ({ coin }) => {
     <Layout>
       <div className={styles.coin_page}>
         <div className={styles.coin_container}>
-          <img
+        <img
             src={coin.image.large}
             alt={coin.name}
             className={styles.coin_image}

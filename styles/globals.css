@@ -23,6 +23,7 @@ a {
 
 body {
   background-color: #101012;
+  margin: 0 30px;
 }
 
 .coin_app {
@@ -46,4 +47,56 @@ body {
 .coin_logo {
   height: 200px;
   width: 200px;
+}
+
+
+h1 {
+  padding: 0;
+  font-family: 'Raleway';
+  color: white;
+  font-size: 2em;
+  text-shadow: 0 2px 0 rgba(0,0,0,.5);
+}
+
+span:before {
+  color: #f79927;
+  content: 'Bitcoin';
+    animation: animate infinite 6s;
+    
+}
+
+@keyframes animate {
+  0% {
+    content: 'Bitcoin';
+  }
+  10% {
+    content:'Ripple';
+  }
+  20% {
+    content: 'Ethereum';
+  }
+  30% {
+    content: 'Solana'
+  }
+  40% {
+    content: 'Tether';
+  }
+  50% {
+    content: 'Polkadot';
+  }
+  60% {
+    content: 'Bitcoin Cash';
+  }
+  70% {
+    content: 'Bitcoin';
+  }
+  80% {
+    content: 'Dogecoin';
+  }
+  90% {
+    content: 'Cardano';
+  }
+  100% {
+    content: 'Binance'
+  }
 }

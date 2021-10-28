@@ -1,4 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Track My Crypto
+
+
+Track my crypto is an app that trackes information of the crypto currency market usin the CoinGecko API.
 
 ## Getting Started
 
